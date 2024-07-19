@@ -139,7 +139,7 @@ private By submitButton = By.xpath("//form[@class='contactMe__form neuroForm']//
 		WebUI.sleep(0.5);
 		WebUI.clearAndFillText(emailInput,"12345");
 		WebUI.sleep(0.5);
-		WebUI.clearAndFillText(emailInput,"asas@asas.com");
+		WebUI.clearAndFillText(emailInput,"DavidT@hotmail.com");
 		WebUI.sleep(0.5);
 		WebUI.clearAndFillText(phoneInput,"asas");
 		WebUI.sleep(0.5);
