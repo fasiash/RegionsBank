@@ -17,7 +17,7 @@ private By investmentsLink = By.xpath("//a[normalize-space()='Investments']");
 private By managingMyWealthLink = By.xpath("//nav[@class='dynamic-menu menu-center']//a[normalize-space()='Managing My Wealth']");
 private By helpUsUnderstandLink = By.xpath("//a[normalize-space()='Help us understand your needs']");
 private By getStartedButton = By.xpath("//button[normalize-space()='Get started']");
-private By workingWithProfessionalOption = By.xpath("//div[5]//label[1]");
+private By workingWithProfessionalOption = By.xpath("//span[normalize-space()='No, but would like to']");
 private By nextButton1 = By.xpath("//button[normalize-space()='Next']");
 private By personalCPAOption = By.xpath("//span[normalize-space()='Personal CPA']");
 private By familyMemberOption = By.xpath("//span[normalize-space()='Family member / close friend']");
