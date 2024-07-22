@@ -90,8 +90,6 @@ public class TestMortgage extends CommonPageRegions {
 		WebUI.sleep(1);
 		WebUI.clickElementsWithJs(applyNowMortgage);
 		WebUI.sleep(2);
-		DriverManager.getdriver().navigate().refresh();
-		WebUI.sleep(2);
 		WebUI.clickElement(getStartedButton);
 		WebUI.sleep(.5);
 		WebUI.clickElement(acknowledgeButton);
