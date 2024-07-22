@@ -47,6 +47,7 @@ private By submitButton = By.xpath("//form[@class='contactMe__form neuroForm']//
 		WebUI.clickElement(investmentsLink);
 		WebUI.clickElement(managingMyWealthLink);
 		WebUI.clickElement(helpUsUnderstandLink);
+		WebUI.sleep(2);
 		WebUI.clickElement(getStartedButton);
         // Are you already working with a Wealth Management Professional?
 		WebUI.clickElement(workingWithProfessionalOption);
