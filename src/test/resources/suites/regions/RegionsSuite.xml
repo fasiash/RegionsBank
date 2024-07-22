@@ -8,7 +8,7 @@
 	</listeners>
 
 	<test name="Regions Bank chrome">
-		<parameter name="BROWSER" value="edge" />
+		<parameter name="BROWSER" value="chrome" />
 	
 		<classes>
 			<class name="com.codetru.project.regions.testcases.Step1_Test" />
