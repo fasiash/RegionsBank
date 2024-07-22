@@ -55,9 +55,9 @@ public class MakeAppointmentPage extends CommonPageRegions {
 		WebUI.sleep(4);
 		WebUI.clickElement(choiceButton1);
 		WebUI.clickElement(nextButton1);
-		WebUI.sleep(35); 
+		WebUI.sleep(25); 
 		WebUI.clickElement(nextMonthButton);
-		WebUI.sleep(19);      
+		WebUI.sleep(12);      
 		WebUI.selectOptionByText(timeSlotDropdown, "8:30 PM");
 		WebUI.clickElement(nextButton1);
 		WebUI.sleep(2);
